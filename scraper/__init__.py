@@ -1,0 +1,3 @@
+"""Local business directory scraper package."""
+
+__version__ = "0.1.0"

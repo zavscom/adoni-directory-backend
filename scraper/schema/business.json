@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Business",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "address",
+    "area",
+    "pincode",
+    "city",
+    "state",
+    "source",
+    "lastSeenAt",
+    "extra"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "category": { "type": "string" },
+    "subCategory": { "type": ["string", "null"] },
+    "address": { "type": "string" },
+    "area": { "type": "string" },
+    "pincode": { "type": "string" },
+    "city": { "type": "string" },
+    "state": { "type": "string" },
+    "phone": { "type": ["string", "null"] },
+    "whatsapp": { "type": ["string", "null"] },
+    "email": { "type": ["string", "null"] },
+    "website": { "type": ["string", "null"] },
+    "latitude": { "type": ["number", "null"] },
+    "longitude": { "type": ["number", "null"] },
+    "source": { "type": "string" },
+    "lastSeenAt": { "type": "string", "format": "date-time" },
+    "extra": { "type": "object" }
+  },
+  "additionalProperties": false
+}
