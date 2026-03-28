@@ -33,14 +33,14 @@ Logs show counts per stage. Outputs:
 | `scraper/config.py` | Town name, paths |
 | `scraper/models.py` | `Business` dataclass, stable `id`, helpers |
 | `scraper/schema/business.json` | JSON Schema for one business object |
-| `scraper/sources/` | Pluggable sources (`base_source.py`, `dummy_source.py`) |
+| `scraper/sources/` | Pluggable sources (`adoni_hospitals_onefivenine.py`, `dummy_source.py` optional) |
 | `scraper/pipeline/` | `fetch_raw` → `normalize` → `dedupe` → `generate_full_and_delta` |
 
 Add a new source: implement `BaseSource`, register the class in `scraper/sources/__init__.py` (`SOURCE_CLASSES`).
 
 ## Business model
 
-Stable `id` is derived from normalized **name + phone + pincode**. Duplicates with the same key are merged in `dedupe.py`. Phone normalization strips non-digits and collapses common India patterns (e.g. leading `91` on a 12-digit mobile).
+Stable `id` is **SHA-1** (hex) of **source + normalized name + normalized address**. Duplicates with the same id are merged in `dedupe.py`. Phone normalization strips non-digits and collapses common India patterns (e.g. leading `91` on a 12-digit mobile) when present on the entity.
 
 Delta rules: **new** / **deleted** by id; **updated** when any field except `lastSeenAt` changes compared to the previous full snapshot.
 

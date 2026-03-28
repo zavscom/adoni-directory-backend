@@ -30,10 +30,14 @@ def normalize_name_key(name: str) -> str:
     return re.sub(r"\s+", " ", (name or "").strip().lower())
 
 
-def stable_business_id(name: str, phone: Optional[str], pincode: str) -> str:
-    """Deterministic id from dedupe key: normalized name + phone + pincode."""
-    key = f"{normalize_name_key(name)}|{normalize_phone(phone) or ''}|{(pincode or '').strip()}"
-    return hashlib.sha256(key.encode("utf-8")).hexdigest()[:32]
+def stable_business_id(source: str, name: str, address: str) -> str:
+    """Deterministic id: SHA-1 hex of source, normalized name, and normalized address."""
+    key = (
+        f"{(source or '').strip().lower()}|"
+        f"{normalize_name_key(name)}|"
+        f"{(address or '').strip().lower()}"
+    )
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()
 
 
 @dataclass

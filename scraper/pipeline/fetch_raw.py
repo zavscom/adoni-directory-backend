@@ -6,8 +6,11 @@ import logging
 from typing import Any
 
 from scraper.sources import SOURCE_CLASSES
+from scraper.sources.adoni_hospitals_onefivenine import AdoniHospitalsOneFiveNineSource
 
 logger = logging.getLogger(__name__)
+
+assert AdoniHospitalsOneFiveNineSource in SOURCE_CLASSES, "Expected onefivenine hospitals source enabled"
 
 
 def fetch_all_raw() -> list[dict[str, Any]]:

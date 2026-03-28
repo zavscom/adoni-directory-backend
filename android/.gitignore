@@ -1,0 +1,14 @@
+# Timestamped APK copies (see app/build.gradle.kts archiving task)
+apk-archive/
+
+# Gradle / Android Studio
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
