@@ -1,43 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-28T08:19:12Z",
+  "generatedAt": "2026-03-28T21:54:21Z",
   "town": "Adoni",
-  "businessCount": 30,
   "businesses": [
     {
-      "id": "13905166e53832032880f3b3427f286d2846b0f5",
-      "name": "Aditya Nursing Home",
+      "id": "3f8b50970523ea07f1a945df0c376d049901799e",
+      "name": "Madhu Hospital",
       "category": "Hospital",
       "subCategory": null,
-      "address": "Kurnool, 518302, Andhra Pradesh",
-      "area": "Kurnool, 518302, Andhra Pradesh",
-      "pincode": "518302",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": "08512231006; 230792;",
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 6768265316
-        }
-      }
-    },
-    {
-      "id": "571a04f48a64418152e378576e582e3321696da8",
-      "name": "Aswini Priya Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
+      "address": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
+      "area": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
       "pincode": "518301",
-      "city": "Adoni",
+      "city": "ADONI",
       "state": "Andhra Pradesh",
       "phone": null,
       "whatsapp": null,
@@ -45,47 +19,17 @@
       "website": null,
       "latitude": null,
       "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207083
-        }
-      }
+      "source": "insurer_star_health",
+      "lastSeenAt": "2026-03-28T21:54:21Z",
+      "extra": {}
     },
     {
-      "id": "0367945a0d0cfdf7620ed46481016ff1400a199d",
-      "name": "Balaji Nursing Home",
+      "id": "88217d6344811610e83f618cc8318c3b39052e41",
+      "name": "KRISHNA HOSPITAL",
       "category": "Hospital",
       "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207122
-        }
-      }
-    },
-    {
-      "id": "ef79801bf2b88de17c65f2f7ee6d60af53318aa1",
-      "name": "Bavana Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Adoni area (15.6214519, 77.2779726)",
-      "area": "Adoni area (15.6214519, 77.2779726)",
+      "address": "21/63, S.K.D COLONY  , ADONI KURNOOL ANDHRA PRADESH",
+      "area": "21/63, S.K.D COLONY  , ADONI KURNOOL ANDHRA PRADESH",
       "pincode": "",
       "city": "Adoni",
       "state": "Andhra Pradesh",
@@ -95,23 +39,18 @@
       "website": null,
       "latitude": null,
       "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 13260754782
-        }
-      }
+      "source": "insurer_hdfc_ergo",
+      "lastSeenAt": "2026-03-28T21:54:21Z",
+      "extra": {}
     },
     {
-      "id": "fffd36d4c93892a1dccac880683342d0f0794963",
-      "name": "Chekuri Nursing Home",
+      "id": "1b20c61cd98fd7e85ff2438679ac54e899d06fb7",
+      "name": "RAGHVENDRA EYE CARE HOSPITAL",
       "category": "Hospital",
       "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
+      "address": "21/63-1 1ST FLOOR ABOVE KRISHNA HOSPITAL  , ABOVE KRISHNA HOSPITAL KURNOOL ANDHRA PRADESH",
+      "area": "21/63-1 1ST FLOOR ABOVE KRISHNA HOSPITAL  , ABOVE KRISHNA HOSPITAL KURNOOL ANDHRA PRADESH",
+      "pincode": "",
       "city": "Adoni",
       "state": "Andhra Pradesh",
       "phone": null,
@@ -120,639 +59,29 @@
       "website": null,
       "latitude": null,
       "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207118
-        }
-      }
+      "source": "insurer_hdfc_ergo",
+      "lastSeenAt": "2026-03-28T21:54:21Z",
+      "extra": {}
     },
     {
-      "id": "3c062798218e044da49544a1e0fde819e37f03e3",
-      "name": "Cure Well Hospital",
+      "id": "8fbc6cd8f74a0d537335decbfc01d50f3c120eda",
+      "name": "Madhu Hospital",
       "category": "Hospital",
       "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
+      "address": "21-111/112, Skd Colony Road No-1, Behind Nirmal Talkies",
+      "area": "21-111/112, Skd Colony Road No-1, Behind Nirmal Talkies",
       "pincode": "518301",
       "city": "Adoni",
       "state": "Andhra Pradesh",
-      "phone": null,
+      "phone": "09491897369",
       "whatsapp": null,
       "email": null,
       "website": null,
       "latitude": null,
       "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207101
-        }
-      }
-    },
-    {
-      "id": "0e82a9f2610d1b6d4715350142ea21da5f1e2dab",
-      "name": "Desai Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": "253703",
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 6761066116
-        }
-      }
-    },
-    {
-      "id": "f404c47c34abab0a3d568af6d9fe991bcb24291a",
-      "name": "Devi Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207086
-        }
-      }
-    },
-    {
-      "id": "63074189c32ff05d65d436a387cfa15b6a5d657a",
-      "name": "Dr. Gopinat Children Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207107
-        }
-      }
-    },
-    {
-      "id": "08412f69eafb6d3cd71ab71f52109b9b1c061a16",
-      "name": "Gouse Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207110
-        }
-      }
-    },
-    {
-      "id": "018f8a2bda2f1b19b441484f88a57b5af2832647",
-      "name": "Government Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207041
-        }
-      }
-    },
-    {
-      "id": "04e32c51d2f4ce33935736d478be07328a452192",
-      "name": "H.R. Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207095
-        }
-      }
-    },
-    {
-      "id": "8a761978deb2fa12b80bd9aa7cf93452941062ee",
-      "name": "Holy Evan's ENT Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207056
-        }
-      }
-    },
-    {
-      "id": "c11ca785c4b464b1fe3a831643f08977b1ae709d",
-      "name": "Krishna Gopal Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207085
-        }
-      }
-    },
-    {
-      "id": "dca04dbf0ea8c13c61e7076dec23616b4450194b",
-      "name": "Krishna Hospital - Kurnool",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": "8512250739",
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 6782151648
-        }
-      }
-    },
-    {
-      "id": "d332eebe703d572a3a7bc574ab8f05717111f0d1",
-      "name": "madhu hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Adoni area (15.621667, 77.2777508)",
-      "area": "Adoni area (15.621667, 77.2777508)",
-      "pincode": "621667",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 13260754781
-        }
-      }
-    },
-    {
-      "id": "c0e38fc7e48a50258fda6d9dd4f5471dcc7fa7e6",
-      "name": "Mother and Child Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207084
-        }
-      }
-    },
-    {
-      "id": "3a24e1260869a560977579fb67d8ad5802a2e2e5",
-      "name": "Noble Care Hospitals",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207065
-        }
-      }
-    },
-    {
-      "id": "c6b6f95fc73c15dfd902567953f8bdbabe7d8625",
-      "name": "Ojas Ayurveda And Panchakarma Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207077
-        }
-      }
-    },
-    {
-      "id": "fcfae2d152ede7cf80a9eab7b8471ea8bbedb11a",
-      "name": "Padmavathi Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207032
-        }
-      }
-    },
-    {
-      "id": "8094341b78340d960149dfd7c93f0de9382a738c",
-      "name": "Pooja Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207090
-        }
-      }
-    },
-    {
-      "id": "d0ac3d90029f98b6574ecaaec9757ac5106248b7",
-      "name": "Radhalakshmi Children's Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207063
-        }
-      }
-    },
-    {
-      "id": "57e33b2c4abca8c7b2428e9c400a861edbabec8f",
-      "name": "Sai Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207088
-        }
-      }
-    },
-    {
-      "id": "1db5390e88bc61fe769e8f7cce0f4a43d38c2062",
-      "name": "Sasha Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207100
-        }
-      }
-    },
-    {
-      "id": "3f4054e54efe5c5f0fdd8d544c4d07d6a80cbd83",
-      "name": "Shakti Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207060
-        }
-      }
-    },
-    {
-      "id": "eed7320c64199ee559c4722ac82d4be8c092f14d",
-      "name": "Sree Sai Krishna Eye Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207051
-        }
-      }
-    },
-    {
-      "id": "7045943b2e12951a80f56a6d9eca93b7670dfc63",
-      "name": "Sree Teja Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207067
-        }
-      }
-    },
-    {
-      "id": "7a1c0bd6ee451f3b601d62b76ae230109980d7eb",
-      "name": "Usha Sree Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207034
-        }
-      }
-    },
-    {
-      "id": "b921a8c29a1dce235d8aa2d05d7dab460af8eb3a",
-      "name": "Vamshi Chaitanya Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207068
-        }
-      }
-    },
-    {
-      "id": "d353ff3443ba4dd63bc2cf0eff5f0512c54309d3",
-      "name": "Vijaya Lakshmi Nursing Home",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "Kurnool, 518301, Andhra Pradesh",
-      "area": "Kurnool, 518301, Andhra Pradesh",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "google_maps_hospitals_adoni",
-      "lastSeenAt": "2026-03-28T08:19:12Z",
-      "extra": {
-        "osm": {
-          "type": "node",
-          "id": 7813207117
-        }
-      }
+      "source": "insurer_icici_lombard",
+      "lastSeenAt": "2026-03-28T21:54:21Z",
+      "extra": {}
     }
   ]
 }
