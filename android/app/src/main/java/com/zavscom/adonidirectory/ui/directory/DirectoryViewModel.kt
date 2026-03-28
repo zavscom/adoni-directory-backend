@@ -3,76 +3,85 @@ package com.zavscom.adonidirectory.ui.directory
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.zavscom.adonidirectory.data.local.entity.BusinessEntity
 import com.zavscom.adonidirectory.data.repository.BusinessRepository
+import com.zavscom.adonidirectory.sync.FULL_URL
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 
 class DirectoryViewModel(
     private val repository: BusinessRepository,
 ) : ViewModel() {
 
-    private val selectedCategory = MutableStateFlow("All")
     private val searchQuery = MutableStateFlow("")
     private val isLoading = MutableStateFlow(true)
+    private val isRefreshing = MutableStateFlow(false)
 
-    private val categoriesFlow: StateFlow<List<String>> =
-        repository.observeDistinctCategories()
-            .map { listOf("All") + it }
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), listOf("All"))
+    private val allBusinesses = repository.getAllBusinesses()
+        .onEach { isLoading.value = false }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
 
-    private val businessesFlow: StateFlow<List<BusinessEntity>> =
-        combine(selectedCategory, searchQuery) { cat, q -> cat to q }
-            .flatMapLatest { (cat, q) ->
-                when {
-                    q.isNotBlank() -> repository.searchBusinesses(q)
-                    cat == "All" -> repository.getAllBusinesses()
-                    else -> repository.getBusinessesByCategory(cat)
-                }
-            }
-            .onEach { isLoading.value = false }
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+    private val catalogUiFlow: StateFlow<List<CatalogCategoryUi>> =
+        allBusinesses.map { all ->
+            val more = CatalogDefinitions.moreEntry()
+            CatalogDefinitions.entries.map { e ->
+                CatalogCategoryUi(
+                    id = e.id,
+                    title = e.title,
+                    emoji = e.emoji,
+                    count = all.count { CatalogDefinitions.matchesCatalogId(it.category, e.id) },
+                )
+            } + CatalogCategoryUi(
+                id = more.id,
+                title = more.title,
+                emoji = more.emoji,
+                count = all.count { CatalogDefinitions.matchesMoreBucket(it.category) },
+            )
+        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
 
     private val lastUpdatedFlow: StateFlow<String?> =
         repository.observeLastSyncAt()
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 
+    /** Category display names with counts (same data as [DirectoryUiState.catalogCategories]). */
+    val categoriesWithCount: StateFlow<List<Pair<String, Int>>> =
+        catalogUiFlow.map { list -> list.map { it.title to it.count } }
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
     val uiState: StateFlow<DirectoryUiState> =
-        combine(
-            categoriesFlow,
-            selectedCategory,
-            searchQuery,
-            businessesFlow,
-            lastUpdatedFlow
-        ) { categories, sel, query, businesses, last ->
+        combine(catalogUiFlow, searchQuery, lastUpdatedFlow, isLoading, isRefreshing) { c, q, last, loading, refreshing ->
             DirectoryUiState(
-                categories = categories,
-                selectedCategory = sel,
-                searchQuery = query,
-                businesses = businesses,
+                catalogCategories = c,
+                searchQuery = q,
                 lastUpdated = last,
-                isLoading = false // Will be updated below
+                isLoading = loading,
+                isRefreshing = refreshing,
             )
-        }.combine(isLoading) { state, loading ->
-            state.copy(isLoading = loading)
         }.stateIn(
             viewModelScope,
             SharingStarted.WhileSubscribed(5_000),
             DirectoryUiState(),
         )
 
-    fun onCategorySelected(category: String) {
-        selectedCategory.value = category
-    }
-
     fun onSearchQueryChanged(query: String) {
         searchQuery.value = query
+    }
+
+    fun refreshFromRemote() {
+        viewModelScope.launch {
+            isRefreshing.update { true }
+            try {
+                repository.syncFromRemote(FULL_URL)
+            } finally {
+                isRefreshing.update { false }
+            }
+        }
     }
 }
 

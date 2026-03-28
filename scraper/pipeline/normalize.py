@@ -27,7 +27,11 @@ def normalize_raw_records(raw_rows: list[dict[str, Any]]) -> list[Business]:
 def _row_to_business(raw: Mapping[str, Any], source_key: str) -> Business:
     name = str(raw.get("name", "")).strip()
     address = str(raw.get("address", "")).strip()
-    bid = stable_business_id(source_key, name, address)
+    explicit_id = raw.get("id")
+    if explicit_id is not None and str(explicit_id).strip():
+        bid = str(explicit_id).strip()
+    else:
+        bid = stable_business_id(source_key, name, address)
     now = utc_now_iso()
 
     pincode = _extract_pincode(address, raw.get("pincode"))

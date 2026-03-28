@@ -14,6 +14,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
+import okhttp3.CacheControl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.IOException
@@ -54,6 +55,9 @@ class BusinessRepository(
     fun observeBusinessById(id: String): Flow<BusinessEntity?> =
         businessDao.observeById(id)
 
+    /** Alias for callers that prefer the `get*` naming; same as [observeBusinessById]. */
+    fun getBusinessById(id: String): Flow<BusinessEntity?> = observeBusinessById(id)
+
     suspend fun syncFromRemote(fullUrl: String) = withContext(Dispatchers.IO) {
         val body = downloadBody(fullUrl)
         val snapshot = json.decodeFromString(FullSnapshotJson.serializer(), body)
@@ -68,7 +72,13 @@ class BusinessRepository(
     }
 
     private fun downloadBody(fullUrl: String): String {
-        val request = Request.Builder().url(fullUrl).build()
+        // Avoid stale CDN/browser-style caching of GitHub Pages JSON.
+        val request = Request.Builder()
+            .url(fullUrl)
+            .cacheControl(CacheControl.FORCE_NETWORK)
+            .header("Cache-Control", "no-cache, no-store")
+            .header("Pragma", "no-cache")
+            .build()
         httpClient.newCall(request).execute().use { response ->
             if (!response.isSuccessful) {
                 throw IOException("HTTP ${response.code} for $fullUrl")

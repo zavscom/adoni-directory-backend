@@ -14,6 +14,7 @@ if str(_REPO_ROOT) not in sys.path:
 
 from scraper import config  # noqa: E402
 from scraper.pipeline.dedupe import dedupe_businesses  # noqa: E402
+from scraper.pipeline.export_to_excel import export_businesses_to_excel  # noqa: E402
 from scraper.pipeline.fetch_raw import fetch_all_raw  # noqa: E402
 from scraper.pipeline.generate_full_and_delta import run_full_and_delta  # noqa: E402
 from scraper.pipeline.normalize import normalize_raw_records  # noqa: E402
@@ -34,6 +35,10 @@ def main() -> int:
         normalized = normalize_raw_records(raw)
         unique = dedupe_businesses(normalized)
         summary = run_full_and_delta(unique)
+
+        xlsx_path = config.DATA_DIR / "adoni_directory.xlsx"
+        export_businesses_to_excel(unique, xlsx_path)
+        log.info("Excel export: %s", xlsx_path)
 
         log.info(
             "Done. total=%d new=%d updated=%d deleted=%d",
