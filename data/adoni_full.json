@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-28T05:21:58Z",
+  "generatedAt": "2026-03-28T05:55:31Z",
   "town": "Adoni",
   "businesses": [
     {
@@ -20,7 +20,7 @@
       "latitude": 15.628,
       "longitude": 77.2749,
       "source": "dummy",
-      "lastSeenAt": "2026-03-28T05:21:58Z",
+      "lastSeenAt": "2026-03-28T05:55:31Z",
       "extra": {}
     },
     {
@@ -40,7 +40,7 @@
       "latitude": null,
       "longitude": null,
       "source": "dummy",
-      "lastSeenAt": "2026-03-28T05:21:58Z",
+      "lastSeenAt": "2026-03-28T05:55:31Z",
       "extra": {}
     },
     {
@@ -60,7 +60,7 @@
       "latitude": null,
       "longitude": null,
       "source": "dummy",
-      "lastSeenAt": "2026-03-28T05:21:58Z",
+      "lastSeenAt": "2026-03-28T05:55:31Z",
       "extra": {}
     }
   ]
