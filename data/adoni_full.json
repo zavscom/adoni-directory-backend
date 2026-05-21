@@ -1,28 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-20T22:53:09Z",
+  "generatedAt": "2026-05-21T22:49:54Z",
   "town": "Adoni",
   "businesses": [
-    {
-      "id": "3f8b50970523ea07f1a945df0c376d049901799e",
-      "name": "Madhu Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
-      "area": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
-      "pincode": "518301",
-      "city": "ADONI",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "insurer_star_health",
-      "lastSeenAt": "2026-05-20T22:53:09Z",
-      "extra": {}
-    },
     {
       "id": "88217d6344811610e83f618cc8318c3b39052e41",
       "name": "KRISHNA HOSPITAL",
@@ -40,7 +20,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-05-20T22:53:09Z",
+      "lastSeenAt": "2026-05-21T22:49:54Z",
       "extra": {}
     },
     {
@@ -60,7 +40,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-05-20T22:53:09Z",
+      "lastSeenAt": "2026-05-21T22:49:54Z",
       "extra": {}
     },
     {
@@ -80,7 +60,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_icici_lombard",
-      "lastSeenAt": "2026-05-20T22:53:09Z",
+      "lastSeenAt": "2026-05-21T22:49:54Z",
       "extra": {}
     }
   ]
