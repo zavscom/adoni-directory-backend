@@ -1,28 +1,7 @@
 {
-  "generatedAt": "2026-05-22T22:34:43Z",
+  "generatedAt": "2026-05-23T22:26:22Z",
   "town": "Adoni",
-  "new": [
-    {
-      "id": "3f8b50970523ea07f1a945df0c376d049901799e",
-      "name": "Madhu Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
-      "area": "D.No.21/110, SKD colony, Road No-1, Adoni, Kurnool",
-      "pincode": "518301",
-      "city": "ADONI",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "insurer_star_health",
-      "lastSeenAt": "2026-05-22T22:34:43Z",
-      "extra": {}
-    }
-  ],
+  "new": [],
   "updated": [],
   "deleted": []
 }
