@@ -1,28 +1,7 @@
 {
-  "generatedAt": "2026-05-29T22:51:42Z",
+  "generatedAt": "2026-05-30T22:31:00Z",
   "town": "Adoni",
-  "new": [
-    {
-      "id": "8fbc6cd8f74a0d537335decbfc01d50f3c120eda",
-      "name": "Madhu Hospital",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "21-111/112, Skd Colony Road No-1, Behind Nirmal Talkies",
-      "area": "21-111/112, Skd Colony Road No-1, Behind Nirmal Talkies",
-      "pincode": "518301",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": "09491897369",
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "insurer_icici_lombard",
-      "lastSeenAt": "2026-05-29T22:51:42Z",
-      "extra": {}
-    }
-  ],
+  "new": [],
   "updated": [],
   "deleted": []
 }
