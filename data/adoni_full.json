@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T22:48:32Z",
+  "generatedAt": "2026-06-25T22:55:37Z",
   "town": "Adoni",
   "businesses": [
     {
@@ -20,7 +20,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_star_health",
-      "lastSeenAt": "2026-06-24T22:48:32Z",
+      "lastSeenAt": "2026-06-25T22:55:37Z",
       "extra": {}
     },
     {
@@ -40,7 +40,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-06-24T22:48:32Z",
+      "lastSeenAt": "2026-06-25T22:55:37Z",
       "extra": {}
     },
     {
@@ -60,7 +60,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-06-24T22:48:32Z",
+      "lastSeenAt": "2026-06-25T22:55:37Z",
       "extra": {}
     },
     {
@@ -80,7 +80,7 @@
       "latitude": null,
       "longitude": null,
       "source": "insurer_icici_lombard",
-      "lastSeenAt": "2026-06-24T22:48:32Z",
+      "lastSeenAt": "2026-06-25T22:55:37Z",
       "extra": {}
     }
   ]
