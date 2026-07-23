@@ -1,7 +1,10 @@
 {
-  "generatedAt": "2026-07-22T22:33:38Z",
+  "generatedAt": "2026-07-23T22:31:04Z",
   "town": "Adoni",
   "new": [],
   "updated": [],
-  "deleted": []
+  "deleted": [
+    "1b20c61cd98fd7e85ff2438679ac54e899d06fb7",
+    "88217d6344811610e83f618cc8318c3b39052e41"
+  ]
 }
