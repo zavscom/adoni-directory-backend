@@ -1,48 +1,7 @@
 {
-  "generatedAt": "2026-07-24T22:34:42Z",
+  "generatedAt": "2026-07-25T22:27:03Z",
   "town": "Adoni",
-  "new": [
-    {
-      "id": "1b20c61cd98fd7e85ff2438679ac54e899d06fb7",
-      "name": "RAGHVENDRA EYE CARE HOSPITAL",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "21/63-1 1ST FLOOR ABOVE KRISHNA HOSPITAL  , ABOVE KRISHNA HOSPITAL KURNOOL ANDHRA PRADESH",
-      "area": "21/63-1 1ST FLOOR ABOVE KRISHNA HOSPITAL  , ABOVE KRISHNA HOSPITAL KURNOOL ANDHRA PRADESH",
-      "pincode": "",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-07-24T22:34:42Z",
-      "extra": {}
-    },
-    {
-      "id": "88217d6344811610e83f618cc8318c3b39052e41",
-      "name": "KRISHNA HOSPITAL",
-      "category": "Hospital",
-      "subCategory": null,
-      "address": "21/63, S.K.D COLONY  , ADONI KURNOOL ANDHRA PRADESH",
-      "area": "21/63, S.K.D COLONY  , ADONI KURNOOL ANDHRA PRADESH",
-      "pincode": "",
-      "city": "Adoni",
-      "state": "Andhra Pradesh",
-      "phone": null,
-      "whatsapp": null,
-      "email": null,
-      "website": null,
-      "latitude": null,
-      "longitude": null,
-      "source": "insurer_hdfc_ergo",
-      "lastSeenAt": "2026-07-24T22:34:42Z",
-      "extra": {}
-    }
-  ],
+  "new": [],
   "updated": [],
   "deleted": []
 }
